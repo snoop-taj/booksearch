@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mthree.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.089 s <<< FAILURE! - in com.mthree.CalculatorTest
+addTest3  Time elapsed: 0.028 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.mthree.CalculatorTest.addTest3(CalculatorTest.java:53)
+

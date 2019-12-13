@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mthree.CalculatorTest" time="0.089" tests="11" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abdul.taj/Documents/workspace/Java/junit/target/test-classes:/Users/abdul.taj/Documents/workspace/Java/junit/target/classes:/Users/abdul.taj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/abdul.taj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/abdul.taj/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/abdul.taj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/abdul.taj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/abdul.taj/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abdul.taj/Documents/workspace/Java/junit/target/surefire/surefirebooter8061472983412576847.jar /Users/abdul.taj/Documents/workspace/Java/junit/target/surefire 2019-12-10T12-23-45_209-jvmRun1 surefire13111538743737064083tmp surefire_014777680282286107689tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abdul.taj/Documents/workspace/Java/junit/target/test-classes:/Users/abdul.taj/Documents/workspace/Java/junit/target/classes:/Users/abdul.taj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/abdul.taj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/abdul.taj/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/abdul.taj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/abdul.taj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/abdul.taj/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abdul.taj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abdul.taj/Documents/workspace/Java/junit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/abdul.taj/Documents/workspace/Java/junit/target/surefire/surefirebooter8061472983412576847.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="user.name" value="abdul.taj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/abdul.taj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kj/0fbqzy7n2y75j6q389kwh7lr_41sfz/T/"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="/Users/abdul.taj/Documents/workspace/Java/junit"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/abdul.taj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="addTest2" classname="com.mthree.CalculatorTest" time="0">
+    <skipped message="public void com.mthree.CalculatorTest.addTest2() is @Disabled"/>
+    <system-out><![CDATA[Static method
+]]></system-out>
+  </testcase>
+  <testcase name="addTest3" classname="com.mthree.CalculatorTest" time="0.028">
+    <failure message="Expected java.lang.ArithmeticException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.mthree.CalculatorTest.addTest3(CalculatorTest.java:53)
+</failure>
+    <system-out><![CDATA[Optional[public void com.mthree.CalculatorTest.addTest3()]
+Cleaning stuff!!!
+]]></system-out>
+  </testcase>
+  <testcase name="addTest4" classname="com.mthree.CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at com.mthree.CalculatorTest.addTest4(CalculatorTest.java:64)
+</skipped>
+    <system-out><![CDATA[Optional[public void com.mthree.CalculatorTest.addTest4()]
+Cleaning stuff!!!
+]]></system-out>
+  </testcase>
+  <testcase name="addTest5" classname="com.mthree.CalculatorTest" time="0">
+    <skipped message="Disabled on operating system: Mac OS X"/>
+  </testcase>
+  <testcase name="addTest6{RepetitionInfo}[1]" classname="com.mthree.CalculatorTest" time="0.009"/>
+  <testcase name="addTest6{RepetitionInfo}[2]" classname="com.mthree.CalculatorTest" time="0.004"/>
+  <testcase name="addTest6{RepetitionInfo}[3]" classname="com.mthree.CalculatorTest" time="0.003"/>
+  <testcase name="addTest6{RepetitionInfo}[4]" classname="com.mthree.CalculatorTest" time="0.001"/>
+  <testcase name="addTest6{RepetitionInfo}[5]" classname="com.mthree.CalculatorTest" time="0.002"/>
+  <testcase name="addTest" classname="com.mthree.CalculatorTest" time="0"/>
+  <testcase name="addTest" classname="com.mthree.CalculatorTest$InnerTestClass" time="0.003"/>
+</testsuite>
